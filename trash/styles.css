@@ -1,0 +1,56 @@
+h1{
+	text-align:center;
+}
+li{
+	display:inline-block;
+	list-style:none;
+	text-align:center;
+	background-color:#ffffff;
+	margin-right:1em;
+	width:6em;
+	line-height:2em;
+}
+select{
+	display:inline-block;
+}
+button{
+	appearance:button;
+    border: 1px solid #AAA;
+    border-radius: 2px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    color: #555;
+    font-size: inherit;
+    margin: 0;
+    overflow: hidden;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+	display:inline-block;
+	margin: 2em auto;
+	
+}
+#dropDown{
+	display:inline-block;
+}
+#buttons{
+	text-align:center;
+}
+#next{
+	text-align:right;
+}
+#previous{
+	text-align:left;
+}
+#map{
+	display:block;
+	margin-left: auto;
+	margin-right:auto;
+}
+#currentSelection{
+	display:block;
+	margin:0 auto;
+}
+#removeOption{
+	display: inline;
+}

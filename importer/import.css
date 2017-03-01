@@ -1,0 +1,14 @@
+#fieldType {
+	position: relative;
+	left: 700px;
+}
+
+#fieldName {
+	position: relative;
+	left: 0px;
+}
+
+#fieldLength {
+	position: relative;
+	right: 900px;
+}

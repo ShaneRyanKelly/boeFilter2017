@@ -1,0 +1,29 @@
+<?php
+	session_start();
+	require("importer/import_createHeaders.php");
+	require("connection.php");
+?>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>-->
+</head>
+<body>
+	<form action="importer/do_import.php" method="POST" enctype="multipart/form-data">
+		<input type="file" name="uploadFile" multiple=""/><br>
+		<select name="county">
+			<option value="selected">Choose a county</option>
+			<option value="columbia">Columbia County</option>
+			<option value="ulster">Ulster County</option>
+		</select> 
+		<button type="submit" name="btn-upload">Import</button>
+		<button type="button" name="selectCounty" id="selectCounty">Filter</button>
+	</form>
+	<div id="selectFields"></div>
+	<button type="submit" id="btn-export" name="btn-export">Export</button>
+</body>
+</html>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="exporter/export_script.js" type="text/javascript"></script>
